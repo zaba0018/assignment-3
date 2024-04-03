@@ -37,15 +37,59 @@ span {
     display: flex;
 }
 
+img{
+    width: 100%;
+}
+
 #hero{
     height: 600px;
     background-image: url(../images/hands-typing.jpg);
     background-position: center;
     background-size: cover;
     filter: grayscale(70%);
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.biopic {
+   align-items: end;
+}
+
+h1{
+    max-width: 60%;
+    text-align: center;
+    background-color: rgba(0, 0, 0,.5);
+    color: #fff;
+    text-shadow: black 5px 1px 3px;
+}
+
+#about-me .wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+
+#services .wrapper{
+    background-color: #fafafa;
+}
+h2{
+    max-width: 940px;
+    text-align: center;
+    padding-top: 30px;
+}
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    padding: 20px;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+}
 
 
 

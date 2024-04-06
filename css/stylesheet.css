@@ -5,10 +5,11 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.wrapper{
+.wrapper {
     max-width: 940px;
     margin: 0 auto;
 }
+
 header {
     background-color: #000;
     color: #fff; 
@@ -36,7 +37,7 @@ nav ul{
 a{
     color: #fff;
     text-decoration: none;
-    font-size: x-small;
+    font-size: 0.6rem;
 }
 
 span {
@@ -84,15 +85,18 @@ h1{
     padding-top: 20px;
     padding-bottom: 10px;
     font-weight: bold;
-    font-size: x-large;
+    font-weight: bold;
 }
 #description {
     align-self: center;
     padding-top: 30px;
     padding-bottom: 20px;
-    font-size: 11px;
+    font-size: 0.71rem;
 
 
+}
+h2{
+    font-size: 1.7rem;
 }
 
 #services .wrapper{
@@ -105,26 +109,26 @@ h1{
     padding-bottom:10px;
     max-width: 100%;
     text-align: center;
+    font-size: 1.7rem;
 }
 #grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-evenly;
-    gap: 30px;
+    gap: 18px;
     padding: 0 50px 50px 50px;
 }
 h3{
-    padding-bottom: 0 ;
-    font-size: large;
+    font-size: 1.3rem;
 }
 #grid article {
-    font-size: 11px;
+    font-size: 0.71rem;
     text-align: left;
     align-items: flex-start;
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    padding: 0 10px 10px 10px; 
+    padding: 0 15px 10px 15px; 
 }
 
 .btn {
@@ -140,6 +144,21 @@ h3{
     border: 2px solid black;
 }
 
+#work .wrapper {
+    text-align: center;
+    margin: 0 auto;
 
-
+}
+#work .wrapper p {
+    max-width: 65%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    
+    font-size: 0.73rem;
+}
+#work .wrapper h2 {
+    max-width: 65%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
 

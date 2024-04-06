@@ -5,11 +5,18 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+.wrapper{
+    max-width: 940px;
+    margin: 0 auto;
+}
 header {
     background-color: #000;
     color: #fff; 
-    padding: 1rem;  
+    padding: 1rem 3rem;
+    max-width: 940px;
+    margin: 0 auto;
+
+      
 }
 
 header .wrapper{
@@ -18,19 +25,18 @@ header .wrapper{
     align-items: center;
 }
 
-.wrapper{
-    max-width: 940px;
-    margin: 0 auto;
-}
+
 
 nav ul{
     list-style: none;
     display: flex;
     gap: 1rem;
+    justify-content: right;
 }
 a{
     color: #fff;
     text-decoration: none;
+    font-size: x-small;
 }
 
 span {
@@ -42,7 +48,9 @@ img{
 }
 
 #hero{
-    height: 600px;
+    max-width: 940px;
+    margin: 0 auto;
+    height: 500px;
     background-image: url(../images/hands-typing.jpg);
     background-position: center;
     background-size: cover;
@@ -52,9 +60,6 @@ img{
     align-items: center;
 }
 
-.biopic {
-   align-items: end;
-}
 
 h1{
     max-width: 60%;
@@ -63,35 +68,77 @@ h1{
     color: #fff;
     text-shadow: black 5px 1px 3px;
 }
+#about-me {
+    margin-bottom: 0;
+}
 
 #about-me .wrapper {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    align-items: center;
+    padding: 0 50px;
+}
+.biopic{
+    align-self: end;
+}
+#description h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: x-large;
+}
+#description {
+    align-self: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 11px;
+
+
 }
 
 #services .wrapper{
+    padding-top: 20px;
     background-color: #fafafa;
+
+    
 }
-h2{
-    max-width: 940px;
+#services .wrapper h2{
+    padding-bottom:10px;
+    max-width: 100%;
     text-align: center;
-    padding-top: 30px;
 }
-#grid {
+#grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
-    padding: 20px;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding: 0 50px 50px 50px;
 }
-article{
+h3{
+    padding-bottom: 0 ;
+    font-size: large;
+}
+#grid article {
+    font-size: 11px;
+    text-align: left;
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    padding: 20px;
+    padding: 0 10px 10px 10px; 
 }
 
-
+.btn {
+    padding: 13px 10px;
+    margin-top:auto;
+    background-color: #000;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.btn:hover {
+    color: #000;
+    background-color: #fff;
+    border: 2px solid black;
+}
 
 
 

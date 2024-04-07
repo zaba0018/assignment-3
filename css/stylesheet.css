@@ -26,7 +26,9 @@ header .wrapper{
     align-items: center;
 }
 
-
+img {
+    width: 100%;
+}
 
 nav ul{
     list-style: none;
@@ -37,21 +39,17 @@ nav ul{
 a{
     color: #fff;
     text-decoration: none;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
 }
 
 span {
     display: flex;
 }
 
-img{
-    width: 100%;
-}
-
 #hero{
     max-width: 940px;
     margin: 0 auto;
-    height: 500px;
+    height: 600px;
     background-image: url(../images/hands-typing.jpg);
     background-position: center;
     background-size: cover;
@@ -153,12 +151,49 @@ h3{
     max-width: 65%;
     margin: 0 auto;
     padding-bottom: 30px;
-    
     font-size: 0.73rem;
 }
 #work .wrapper h2 {
     max-width: 65%;
     margin: 0 auto;
+    padding-top: 60px;
     padding-bottom: 20px;
 }
+#images {
+    max-width: 840px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "child1 child1 child1 child2 child2 child2"
+    "child3 child3 child4 child4 child5 child5"
+    ;
+}
+#images img:nth-child(1){
+    grid-area: child1;
 
+}
+#images img:nth-child(2){
+    grid-area: child2;
+
+}#images img:nth-child(3){
+    grid-area: child3;
+
+}
+#images img:nth-child(4){
+    grid-area: child4;
+}
+#images img:nth-child(5){
+    grid-area: child5;
+}
+footer{
+    background-color: #000;
+    color: #fafafa;
+    margin: 50px auto ;
+    max-width: 940px;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.7rem;
+
+}
